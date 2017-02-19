@@ -20,7 +20,7 @@ class Plugin(plugins.SimplePlugin):
                 self.sessions[db_alias] = scoped_session(sessionmaker(**db_spec['session']))
             self.bus.subscribe('get-db-sessions', self.get_sessions)
         else:
-            print('sqlalchemy databases is not set.')
+            print('sqlalchemy configuration is not set.')
             raise Exception
 
     def stop(self):
