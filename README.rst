@@ -1,4 +1,4 @@
-Cherrypy SQLAlchemy
+Marbaloo SQLAlchemy
 ===================
 
 `sqlalchemy <http://www.sqlalchemy.org//>`_ support for cherrypy.
